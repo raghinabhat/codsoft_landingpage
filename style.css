@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%), url(sce.jpg);
+    background-size: cover;
+   
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(168, 187, 202);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: chocolate;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid chocolate;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: chocolate;
+    border: 2px solid chocolate;
+    margin-top: 14px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: chocolate;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease;
+}
+
+.cn:hover{
+    background-color: antiquewhite;
+}
+
+.form{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid chocolate;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bttn{
+    width: 240px;
+    height: 40px;
+    background: chocolate;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 13px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bttn:hover{
+    background: #fff;
+    color: chocolate;
+}
+
+.bttn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: chocolate;
+}
+
